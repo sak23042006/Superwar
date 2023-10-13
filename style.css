@@ -7,10 +7,6 @@
   width: 100vw;
   height: 100vh;
 }
-.footer{
-  margin-left : 80px;
-  font-size : 18px;
-}
 .grid{
   display: grid;
   grid-template-columns: repeat(3,1fr);
