@@ -5,28 +5,39 @@
 }
 .main{
   width: 100vw;
-  height: 100vh;
+  height: 100%;
 }
 .grid{
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  padding: 1% 15%;
-  height: 37%;
+  padding: 1% 8%;
 }
 .flex{
   display:flex;
   justify-content: space-between;
 }
-.hero1,.hero2,.villian1,.villian2{
+.border{
   border: 5px solid #E5E5E5;
   border-radius: 10px;
-  padding: 4%;
+  padding: 18px;
 }
-h3,.grid img{
+h4,.grid img{
   text-align: center;
-  font-size: 20px;
+  font-size: 15px;
 }
 .score p,p{
   text-align: center;
   font-size: 50px;
+}
+.heros,.villians{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+.hero10{
+  display: grid;
+  grid-column: 3;
+}
+footer{
+  text-align: center;
 }
